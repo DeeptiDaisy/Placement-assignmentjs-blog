@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0 20px;
+}
+/* Form container */
+    #new-blog-form {
+    margin: 20px 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+  /* Form heading */
+    #new-blog-form h2 {
+    text-align: center;
+    }
+
+    #new-blog-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+
+    #new-blog-form input[type="text"],
+    #new-blog-form textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    }
+
+  /* Form submit button */
+    #submit-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #submit-btn:hover {
+    background-color: #45a049;
+  }
+
+  /* Blogs */
+  #blogs {
+    display: flex;
+    justify-content: center;
+    /* margin: 0 auto; */
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 100%;
+    }
+    .blog {
+    max-width: 300px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .blog h3 {
+    margin-top: 0;
+    height: 50px;
+    overflow: hidden;
+
+}
+.blog p{
+    margin-bottom: 20px;
+    height: 130px;
+    overflow: hidden;
+}
+.delete-btn {
+    background-color: #f21d1d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: auto;
+}
