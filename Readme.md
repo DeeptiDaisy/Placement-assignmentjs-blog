@@ -18,8 +18,8 @@ This is a Blog application which fetch blogs from a fake server. Add new blog an
 <br>
 
 ## **Deployed Link :**
-<a href="https://jsquestion12-navneetkuar.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/></a>
+<a href="https://blogapi-deepti.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/></a>
 
-
+ 
 
 <br>
